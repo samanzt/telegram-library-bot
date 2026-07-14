@@ -1,34 +1,51 @@
 # 📚 Telegram Library Bot
 
-A Telegram bot for managing a personal library using Python and SQLite.
+A Telegram bot for managing a personal library using **Python**, **python-telegram-bot**, and **SQLite**.
 
-## Features
+## ✨ Features
 
-- ➕ Add books
+- ➕ Add a new book
 - 📖 View all books
 - 🔍 Search books
 - ✏️ Edit books
 - 🗑️ Delete books
-- 💾 SQLite Database
+- 💾 SQLite database
 - 💬 ConversationHandler
-- 🎛️ Inline Keyboard
+- 🎛️ Inline Keyboard support
 
-## Technologies
+## 🛠️ Technologies
 
 - Python
-- python-telegram-bot
+- python-telegram-bot v22.8
 - SQLite
 
-## Installation
+## 🚀 Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run
+## ▶️ Run
 
-Replace your Telegram Bot Token inside `main.py`.
+Replace your Telegram Bot Token inside:
+
+```text
+Library-Manager-Telegram-Bot.py
+```
+
+Then run:
 
 ```bash
-python main.py
+python Library-Manager-Telegram-Bot.py
+```
+
+## 📁 Project Structure
+
+```
+.
+├── Library-Manager-Telegram-Bot.py
+├── database.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
